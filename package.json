@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "scripts": {
+    "bc":"tailwindcss build src/style.css -o public/style.css"
+  },
+  "author": "abel",
+  "devDependencies": {
+    "tailwindcss": "^3.4.8"
+  }
+}
