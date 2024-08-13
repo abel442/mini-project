@@ -4,7 +4,7 @@
   "main": "index.js",
   "description": "",
   "scripts": {
-    "bc":"tailwindcss build src/style.css -o public/style.css"
+     "dev": "tailwindcss -i src/style.css -o public/style.css --watch"
   },
   "author": "abel",
   "devDependencies": {
